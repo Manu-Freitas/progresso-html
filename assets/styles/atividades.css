@@ -4,13 +4,27 @@
     box-sizing: border-box;
 }
 
-.circulo {
+body {
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.circulo {
+    width: 200px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     flex-direction: column;
+    background-color: rgb(26, 25, 25);
+    border-radius: 50px;
+
 }
 
 .c1 {
@@ -18,6 +32,7 @@
     height: 150px;
     border-radius: 100px;
     background-color: rgb(212, 18, 18);
+    box-shadow: 0 0 20px rgb(212, 18, 18);
 }
 
 .c2 {
@@ -25,6 +40,7 @@
     height: 150px;
     border-radius: 100px;
     background-color: rgb(230, 245, 22);
+    box-shadow: 0 0 20px rgb(230, 245, 22);
 }
 
 .c3 {
@@ -32,4 +48,6 @@
     height: 150px;
     border-radius: 100px;
     background-color: rgb(58, 196, 40);
+    box-shadow: 0 0 20px rgb(58, 196, 40);
+
 }
