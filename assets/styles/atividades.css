@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.quadrado {
+    width: 30%;
+    height: 160px;
+    background-color: blueviolet;
+    margin: 0 auto 25px;
+}
+
+
+
+
